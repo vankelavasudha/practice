@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation</title>
+	<style>
+		div
+		{
+			background:linear-gradient(45deg,orange,red,blue);
+			width:70px;
+			height:70px;
+			border-radius:100%;
+			position:relative;
+			animation:vasu 3s linear 0s infinite normal;
+
+
+		}
+
+		@keyframes vasu
+		{
+			0%,100%
+			{
+				top:0px;
+				left:0px;
+			}
+			10%
+			{
+				top:0px;
+				left:200px;
+
+
+			}
+			20%{
+				top:200px;
+				left:200px;
+
+
+			}
+			30%
+			{
+				top:200px;
+				left:0px;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div> </div>
+
+</body>
+</html>
